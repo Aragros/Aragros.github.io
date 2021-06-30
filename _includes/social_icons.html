@@ -1,0 +1,9 @@
+<ul class="hlist">
+    {% for social in site.social %}
+    <li>
+        <a class="nav-link" href="{{social.url}}" target="_blank">
+            <i class="fab fa-{{social.name}}"></i>
+        </a>
+    </li>
+    {% endfor %}
+</ul>

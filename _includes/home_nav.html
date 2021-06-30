@@ -1,0 +1,45 @@
+<section id="homeNav">
+    <nav id="mainNavBar" class="navbar shadow fixed-top navbar-expand-lg">
+          <a class="navbar-brand" href="/">{{site.title}}</a>
+    
+            <div class="social-icon ml-auto mr-3 order-lg-last">
+                
+                {% include social_icons.html %}
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars" style="color: white;"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                    {% for item in site.data.navigation %}
+                    {% assign sub = item.subcategories %}
+                    {% if sub %}
+                        <li class="nav-item dropdown">
+                            <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" 
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                {{ item.name}}
+                            </a>
+                            <ul id="dropMenu" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                {% for category in sub %}
+                                <li><a class="dropdown-item" href="{{ category.link }}">{{ category.name}}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                    {% else %}
+                        <li class="nav-item"><a class="nav-link" href="{{ item.link }}">{{ item.name}}</a></li>
+                    {% endif %}
+                {% endfor %}  
+            </ul>
+          </div>
+      </nav>
+      </section>        
+
+      <!--Defines cover title at the top of the page-->                                                                                                                                                                       
+      <div class="text-center cover container-fluid">
+          <h1 >{{page.cover_title}}</h1>
+        </div> 
+        <!-- <div class="m100 jumbotron">
+      </div> -->
+
+    

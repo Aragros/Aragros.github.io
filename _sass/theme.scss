@@ -1,0 +1,67 @@
+html {
+    --dark: rgb(40, 40, 40);
+    --gold: #ffd700;
+    --bgold: #d2ac47;
+    --beige: #e0d3bc;
+    --green: #828f76;
+    --pastel: #c2dbb6;
+    --text: rgb(228, 228, 228);
+    --light: #e3e3e3;
+}
+
+
+.bg-dark{
+    background-color: var(--dark);
+}
+.page-background{
+    background-color: var(--beige);
+}
+
+*{
+    font-family: "Xarrovv", sans-serif;
+    //font-family: Arial, Helvetica, sans-serif;
+
+}
+body {
+    background-color: var(--beige);
+    // font-family: Arial, Helvetica, sans-serif;
+    // font-family: "Valiant", sans-serif;
+}
+
+.content-padding{
+    padding-top: 55px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--dark);
+    // font-family: "Mini Story", sans-serif;
+}
+
+p, strong, b, em, span, code, small {
+    color: var(--dark);
+}
+a{
+    color:var(--green)
+}
+
+#about a{
+    color: var(--green);
+    font-family: "SomethingSpecial", sans-serif;
+}
+
+#about a:hover{
+    color: var(--bgold);
+}
+
+
+.error-page {
+    margin-top: 10px;
+    max-width: 600px;
+    text-align: center;
+    h1 {
+      margin: 30px 0;
+      font-size: 4em;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+  }

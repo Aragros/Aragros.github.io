@@ -1,0 +1,13 @@
+#Color Customization
+#highlight: "#54bfff"
+nav_color: "#FF0F0F"
+#white: "#FF0000"
+#black: "#000"
+
+#Image Customization
+header-image: /assets/images/fantasy_background.jpeg
+banner: /assets/images/banner.jpeg
+contact-image: "../img/contact.png"
+
+#Font Awesome icon for portfolio grid when an item is hovered over
+#portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x

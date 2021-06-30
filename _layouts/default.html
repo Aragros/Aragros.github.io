@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+
+    <body class="page-background d-flex flex-column min-vh-100 ">
+        {% include home_nav.html %}
+        {% if page.url != "/404.html" %}
+        {% endif %}
+        {{ content }}
+        <div class="mt-auto footer">
+            {% include footer.html %}
+        </div>
+    </body>
+</html>
+

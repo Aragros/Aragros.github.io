@@ -1,0 +1,30 @@
+.footer{
+    background-color: var(--green);
+}
+
+.newsletter{
+    background-color: var(--green);
+    height: 100px;
+    margin-top: 20px;
+}
+
+.newsletter-header{
+    padding-top: 20px;
+}
+
+.newsletter .btn{
+    width: 250px;
+    height: 50px;
+    background-color: var(--green);
+    border-radius: 0px;
+
+    span{
+        color: white;
+        font-size: 1rem;
+    }
+}
+
+.newsletter .btn:hover{
+    background-color: var(--green);
+    opacity: 0.8;
+}

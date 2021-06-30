@@ -1,0 +1,150 @@
+#homeNav{
+  body{
+    padding-top: 0px;
+  }
+
+  .navbar{
+    // background-color: transparent;
+    background-color: var(--green);
+    // height: 100px;
+    a{
+      color: var(--text) ;
+        font-size: 1.7em;
+    }
+  }
+  
+  
+  .navbar-nav a:hover{
+    color: var(--gold) ;
+    // font-weight: 600;
+    // border-bottom: 1px solid var(--gold);
+  }
+  .dropdown ul{
+    background-color: var(--dark);
+  }
+  .dropdown-menu a:hover{
+    // background-color: transparent;
+    background-color: var(--green);
+  }
+  
+  //Navbar-brand
+  .navbar-brand{
+    margin-left: 30px;
+    // font-size: 30px !important;
+    &:hover{
+      color: var(--gold);
+      // font-weight: 600;
+    }
+  }
+  
+  .social-icon{
+    padding-right: 20px;
+    a{
+      padding: .5rem 1.2rem;
+    }
+  }
+
+  .social-icon a:hover{
+    color: var(--gold);
+  }
+  
+  .dropdown ul{
+    background-color: var(--green);
+  }
+
+  @media only screen and (max-width: 1000px){
+    .navbar {
+      background-color: var(--green) !important;
+    }
+
+    .navbar-toggler{
+      padding-right: 30px;
+      font-size: 2em;
+    }
+  
+    .navbar-nav {
+      a{
+        margin: 0px 5px 0 17px;
+        margin-top: 15px;
+    
+        &:hover{
+          border-bottom: none;
+          // font-weight: 300;
+          border-bottom: 0px;
+        }
+      }
+    }
+    .dropdown-item{
+      background-color: var(--green);
+    }
+    .dropdown ul{
+      background-color: var(--green);
+    }
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .social-icon{
+    // position: absolute;
+    // left: 42%;
+    margin-left: -85px !important;
+  }
+}
+// @media only screen and (min-width: 1200px){
+//   .navbar-toggler{
+//     display:none ;
+//   }
+// }
+
+// --- Jumbotron ---
+.centered{
+  position: relative;
+  padding-top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cover{
+  display: flex;
+  width: 50%;
+  height: 150px;
+  margin-top: 75px;
+  align-items:center;
+  justify-content:center;
+  background-color: var(--green);
+  box-shadow: rgba(33, 35, 38, 0.5) 0px 5px 5px 0px;
+
+  h1{
+    font-size: 40px;
+    color: white;
+    line-height: 1.5;
+  }
+}
+
+.intro{
+  padding-top: 160px;
+}
+
+.row{
+  width: 100%;
+}
+
+.hlist {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+ 
+.hlist li {
+  list-style-type: none;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: transparent;
+  width: 100%; /* Auto spacing */
+}
+ 
+@media screen and (max-width: 768px) {
+  .hlist { flex-wrap: wrap; } 
+  .hlist li { width: 50%; }
+}

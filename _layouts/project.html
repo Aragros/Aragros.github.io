@@ -1,0 +1,21 @@
+---
+
+---
+
+<section>
+    <div class="container character">
+        <div class="row gap100">
+            <div class="col-md-3 img">
+                <img src="{{ page.image }}" alt="character" class="img-fluid">
+            </div>
+            <div class="col-md img-description" >
+                <h2>{{ page.project_name | upcase}}</h2>
+                <h3><b>Status:</b> {{page.status}}</h3>
+                <h4>{{ page.info }}</h4>
+                <p>
+                    {{ content }}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
