@@ -1,4 +1,5 @@
 ---
+title: A Curse of Blood and Power Series
 project_name: A Curse of Blood and Power Series
 image: /assets/images/projects/curse_of_blood.png
 status: Prepping for Arc's

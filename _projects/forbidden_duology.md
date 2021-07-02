@@ -1,4 +1,5 @@
 ---
+title: "The Forbidden Duology: Book One, 'The Boneless Prince'"
 project_name: "The Forbidden Duology: Book One, 'The Boneless Prince'"
 image: /assets/images/projects/logo_boneless_prince.png
 status: Halfway through the first draft. 
