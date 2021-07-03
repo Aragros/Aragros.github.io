@@ -89,6 +89,10 @@
     height: 100%;
     vertical-align: middle;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 991px) and (max-width: 1200px) {
+        width: 400px;
+    }
 }
 
 
@@ -100,6 +104,7 @@
 .about-container{
     margin-top: 60px;
     max-width: 1140px !important;
+    padding: 20px;
 }
 
 @media screen and (min-width: 992px) {

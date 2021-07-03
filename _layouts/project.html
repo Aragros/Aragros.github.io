@@ -5,12 +5,17 @@
 <section>
     <div class="container project">
         <div class="row gap100">
-            <div class="col-lg-3 project-img">
+            <div class="col-lg-4 project-img">
                 <img src="{{ page.image }}" alt="character" class="img-fluid">
             </div>
             <div class="col-lg project-description" >
                 <h2>{{ page.project_name | upcase}}</h2>
-                <h3><b>Status:</b> {{page.status}}</h3>
+                {% if page.status_link %}
+                    <h3><b>Status:</b> <a href="{{ page.status_link }}" target="_blank">{{page.status}}</a></h3>
+                {% else %}
+                    <h3><b>Status:</b> {{page.status}}</h3>
+                {% endif %}
+                <h4><b> <a href={{ page.order_link }} target="_blank"> Order the book</a></b></h4>
                 <h4>{{ page.info }}</h4>
                 <p>
                     {{ content }}

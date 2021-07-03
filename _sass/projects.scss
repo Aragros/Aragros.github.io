@@ -7,6 +7,10 @@
     }
 }
 
+.project-img{
+    margin-right: 70px;
+}
+
 .project-description{
     h2{
         color: var(--green);
@@ -24,6 +28,12 @@
     }
     p{
         font-size: 20px !important;
+    }
+    a{
+        color:var(--green);
+        &:hover{
+            color: var(--bgold);
+        }
     }
 }    
 @media only screen and (max-width: 991px){
