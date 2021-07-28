@@ -1,5 +1,7 @@
 ---
 title: 3 lessons learned from my first developmental edit
+img: /assets/images/posts/3_lessons_first_experience.png
+cover: /assets/images/posts/covers/3_lessons_learnt.png
 ---
 1) Fear is normal, accept it, and you’ll be much better off from the start.  
 Gods, I was terrified. I’d have a couple of beta-readers and the comments had been positive but having a professional eye look over and critically analyse your child–because yes, this is how I see it–it had my heart looping in my chest. But it was a good fear, it meant that finally what I had been working towards was becoming a reality. 

@@ -9,28 +9,20 @@ cover: /assets/images/fantasy_background.jpeg
     <div class="row">
         {% assign posts= site.posts | sort: "date" | reverse %}
         {% for post in posts %}
-            <div class="col-lg-4">
+            <div class="col-xl-4 col-lg-6 center-columns">
                 <a href="{{post.url}}">
                     <div class="card hover-shadow mb-3">
-                <div class="outer-border">
-                    <div class="mid-border">
-                       <div class="inner-border">
-                    <div class="card-body">
-                        <h2 class="card-title">
-                        {{post.title}}
-                            <p class="caption-size mt-2">{{ post.date | date_to_string }}</p>
-                        </h2>
-                        <p class="card-text">{{post.excerpt}}</p>
+                        <div class="card-img-top">
+                            <img src={{ post.cover }} alt="{{ post.title }} cover">
+                        </div>
+                        <div class="card-body">
+                            {{post.excerpt}}
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</a>
+                </a>
             </div>
         {% endfor %}
     </div>
-    
 </div>
 
 

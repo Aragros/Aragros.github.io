@@ -1,6 +1,7 @@
 ---
 title: My first draft experience
-img: /assets/images/my_first_draft.png
+img: /assets/images/posts/my_first_draft.png
+cover: /assets/images/posts/covers/first_draft_experience.png
 ---
 Always thought about writing a book but never knew how to start? Oh well, don’t we all go through that stage? I am sure you’ve heard it before, but you just need to start. The first step, the first brick, the first word, the first paragraph.
 
