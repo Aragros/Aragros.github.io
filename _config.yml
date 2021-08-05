@@ -27,7 +27,8 @@ social:
     url: https://www.tiktok.com/@viv_noel
   - name: goodreads
     url: https://www.goodreads.com/book/show/58409671-a-curse-of-blood-and-power
-
+  - name: etsy
+    url: https://www.etsy.com/shop/TheWorldofFanhalen
 footer: "© vivienenoel.com"
 
 defaults:

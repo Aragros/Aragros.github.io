@@ -42,6 +42,13 @@
                 </a>
             </li>
             {% endif %}
+            {% if page.etsy_link %}
+            <li>
+                <a href={{ page.etsy_link }} target="_blank" class="btn order-button"> 
+                    <i class="fab fa-etsy"></i><span class="order-button-text">Get your signed copy and merch on Etsy</span> 
+                </a>
+            </li>
+            {% endif %}
         </ul>
     </div>
     
@@ -76,7 +83,7 @@
                 {% if page.order_link %}
                 <li>
                     <a href={{ page.order_link }} target="_blank" class="btn order-button"> 
-                        <i class="fab fa-amazon"></i><span class="order-button-text">Preorder now on Amazon!</span> 
+                        <i class="fab fa-amazon"></i><span class="order-button-text">Order now on Amazon!</span> 
                     </a>
                 </li>
                 {% endif %}
@@ -84,6 +91,13 @@
                 <li>
                     <a href={{ page.goodreads_link }} target="_blank" class="btn order-button"> 
                         <i class="fab fa-goodreads"></i><span class="order-button-text">Post a review on Goodreads!</span> 
+                    </a>
+                </li>
+                {% endif %}
+                {% if page.etsy_link %}
+                <li>
+                    <a href={{ page.etsy_link }} target="_blank" class="btn order-button"> 
+                        <i class="fab fa-etsy"></i><span class="order-button-text">Get your signed copy and merch on Etsy</span> 
                     </a>
                 </li>
                 {% endif %}

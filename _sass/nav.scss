@@ -23,17 +23,14 @@
     background-color: var(--dark);
   }
   .dropdown-menu a:hover{
-    // background-color: transparent;
     background-color: var(--green);
   }
   
   //Navbar-brand
   .navbar-brand{
     margin-left: 30px;
-    // font-size: 30px !important;
     &:hover{
       color: var(--gold);
-      // font-weight: 600;
     }
   }
   
@@ -52,7 +49,7 @@
     background-color: var(--green);
   }
 
-  @media only screen and (max-width: 1000px){
+  @media only screen and (max-width: 1200px){
     .navbar {
       background-color: var(--green) !important;
     }
@@ -60,6 +57,9 @@
     .navbar-toggler{
       padding-right: 30px;
       font-size: 2em;
+      span{
+        color: white !important;
+      }
     }
   
     .navbar-nav {
@@ -69,7 +69,6 @@
     
         &:hover{
           border-bottom: none;
-          // font-weight: 300;
           border-bottom: 0px;
         }
       }
@@ -96,17 +95,9 @@
 
 @media only screen and (max-width: 991px){
   .social-icon{
-    // position: absolute;
-    // left: 42%;
     margin-left: -85px !important;
   }
 }
-// @media only screen and (min-width: 1200px){
-//   .navbar-toggler{
-//     display:none ;
-//   }
-// }
-
 // --- Jumbotron ---
 .centered{
   position: relative;

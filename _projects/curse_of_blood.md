@@ -1,9 +1,10 @@
 ---
 title: A Curse of Blood and Power Series
 project_name: A Curse of Blood and Power Series
-image: /assets/images/projects/blood_and_power_series_cover.jpg
+image: /assets/images/projects/ACOBAP_cover_redux.jpg
 order_link: https://www.amazon.com/gp/product/B097S4YGV5?pf_rd_r=7ZAH5F2G857FCND3D5VP&pf_rd_p=6fc81c8c-2a38-41c6-a68a-f78c79e7253f&pd_rd_r=8a68ae96-3d0b-4a51-bebd-0bb94598be56&pd_rd_w=VM01H&pd_rd_wg=e54gf&ref_=pd_gw_unk
 goodreads_link: https://www.goodreads.com/book/show/58409671-a-curse-of-blood-and-power
+etsy_link: https://www.etsy.com/shop/TheWorldofFanhalen
 ---
 *Engulfed in darkness, she will stumble upon her own.*
 On Fanhalen, world-walking was once a coveted gift wielded only by the Castellain line. But their line is long gone, and since the sudden disappearance of magic at the beginning of the Shadow War, it is only a whispered memory.
